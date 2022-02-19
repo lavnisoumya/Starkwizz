@@ -23,6 +23,10 @@ import { ShowcaseComponent } from './showcase/showcase.component';
 import { MyquizComponent } from './myquiz/myquiz.component';
 import { BookfestComponent } from './bookfest/bookfest.component';
 import { HubrepeatComponent } from './hub/hubrepeat/hubrepeat.component';
+import { DailyquizComponent } from './myquiz/dailyquiz/dailyquiz.component';
+import { CoupunComponent } from './myquiz/coupun/coupun.component';
+import { InstructionbackendComponent } from './myquiz/dailyquiz/instructionbackend/instructionbackend.component';
+import { Dailyquiz01Component } from './myquiz/dailyquiz/instructionbackend/dailyquiz01/dailyquiz01.component';
 
 
 const appRoutes: Routes = [
@@ -45,8 +49,10 @@ const appRoutes: Routes = [
   {path:"showcase",component:ShowcaseComponent},
   {path:"myquiz",component:MyquizComponent},
   {path:"bookfest",component:BookfestComponent},
-
-
+  {path:"coupun",component:CoupunComponent},
+  {path:"dailyquiz",component:DailyquizComponent},
+  {path:"instructionbackend",component:InstructionbackendComponent},
+  {path:"dailyquiz1",component:Dailyquiz01Component},
 
 
 ];
@@ -72,7 +78,11 @@ const appRoutes: Routes = [
     ShowcaseComponent,
     MyquizComponent,
     BookfestComponent,
-    HubrepeatComponent
+    HubrepeatComponent,
+    DailyquizComponent,
+    CoupunComponent,
+    InstructionbackendComponent,
+    Dailyquiz01Component
   ],
   imports: [
     BrowserModule,

@@ -49,7 +49,7 @@
   position: fixed;
   bottom: 0;
   margin-left: 10%;
-  width: 80%;
+  width: auto;
 }
 
 .navbar a {
@@ -59,7 +59,7 @@
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
- margin-left: 5%;
+  justify-content: space-between;
   text-decoration: none;
   font-size: 10px;
 }

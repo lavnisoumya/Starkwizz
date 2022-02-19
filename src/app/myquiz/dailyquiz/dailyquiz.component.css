@@ -1,0 +1,30 @@
+
+.notification {
+  background-color: cyan;
+  color: white;
+  width: 80%;
+  margin-left: 10%;
+  font-weight: bold;
+  text-align: left;
+
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: cyan;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
