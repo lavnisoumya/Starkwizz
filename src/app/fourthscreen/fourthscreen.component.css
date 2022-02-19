@@ -1,0 +1,31 @@
+
+  .col img {
+    max-width: 100%;
+    height: 100px;
+    margin-left: 50px;
+    position: fixed;
+    top:0;
+  }
+.col input[type = text]{
+  box-sizing: border-box;
+  width: 50%;
+  height: 30px;
+  margin-left: 60px;
+  border: none;
+  font-weight: bold;
+
+  margin-top: 10px;
+}
+.col button{
+  background-color: cyan;
+  margin-top: 30px;
+  margin-left: 60px;
+  width: 40%;
+  border-radius: 25px;
+  height: 30px;
+  border: none;
+  font-weight: bold;
+
+
+  text-decoration-style: solid;
+}

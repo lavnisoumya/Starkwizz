@@ -1,0 +1,33 @@
+
+  .container{
+  margin-top: 200px;
+  overflow: scroll;
+  width: 100%;
+  height: auto;
+
+}
+.col img {
+  max-width: 100%;
+  height: 100px;
+  margin-left: 18%;
+  position: fixed;
+  top:0;
+}
+.isd p{
+  margin-left: 20%;
+}
+.col button{
+  background-color: cyan;
+  margin-top: 60px;
+  margin-left: 20%;
+  width: 30%;
+  border-radius: 25px;
+  height: 30px;
+  font-weight: bold;
+  border: none;
+
+  text-decoration-style: solid;
+}
+.container img{
+  margin-top: 40px;
+}
