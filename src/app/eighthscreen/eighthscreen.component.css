@@ -1,13 +1,14 @@
 
 .container{
   height: 800px;
+  font-family: 'Roboto Slab', serif;
 
 }
 .col img {
   max-width: 100%;
   height: 60px;
-  position: fixed;
-  margin-left: 60px;
+  margin-top:40%;
+  margin-left: 22%;
   top:0;
 }
 .col input[type = text]{
@@ -31,13 +32,14 @@
   margin-top: 30px;
 }
  button{
-  background-color: cyan;
+  background-color: rgb(0,191,255);
   margin-top: 20px;
   margin-left: 60px;
   width: 60%;
   border-radius: 25px;
-  height: 30px;
+  height: 40px;
   border:none ;
+  color: rgb(0,49,83);
   font-weight: bold;
 
 
@@ -47,4 +49,4 @@
   margin-top: 40px;
 }
 
-.button4{background-color: white;border: 2px solid black;}
+.button4{background-color: white;border: 2px solid rgb(0,49,83);}

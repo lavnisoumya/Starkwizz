@@ -5,12 +5,12 @@
 .col img {
   max-width: 100%;
   height: 50px;
-  position: fixed;
-  margin-left: 50px;
+
+  margin-left: 20%;
   top:0;
 }
  button{
-  background-color: #000080;
+  background-color: rgb(0,49,83);
   margin-top: 10px;
   margin-left: 50px;
   width: 70%;
@@ -18,7 +18,7 @@
   color:white;
   font-weight: bold;
   height: 40px;
-  border-color: black;
+  border-color: rgb(0,49,83) ;
 
   text-decoration-style: solid;
 }
