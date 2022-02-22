@@ -1,12 +1,11 @@
 
 .card{
-  height: 300px;
-  width: 250px;
+  height: 330px;
+  width: 100%;
   margin-top: 100px;
   text-align: center;
 
-  margin-left:120px;
-  margin: 60px;
+  margin-bottom: 10%;
   border-radius: 25px;
    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -19,13 +18,28 @@
   border-radius: 25px;
   font-weight: bold;
   height: 30px;
-
+ padding-bottom: 20px;
   border: none;
   text-decoration-style: solid;
 }
 .col{
   margin-top: -10px;
 }
-p{
+form{
+ display: flex;
+ padding: 0;
+ margin: 0;
 
+ justify-content: center;
+}
+input{
+  margin: 10px;
+	height: 35px;
+	width: 50px;
+
+	border-radius: 5px;
+	text-align: center;
+	font-family: arimo;
+	font-size: 1.2rem;
+	background: #eef2f3;
 }

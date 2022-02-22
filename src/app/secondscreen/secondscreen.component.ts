@@ -8,11 +8,24 @@ import { Router } from "@angular/router";
 })
 export class SecondscreenComponent implements OnInit {
 
-  constructor(private router:Router) { }
+ disabled = false;
+  constructor(private router:Router) {
+
+
+   }
 
   ngOnInit(): void {
   }
    third(){
      this.router.navigate(['/eighthscreen']);
    }
-}
+   validate(){
+     const ele = document.getElementById("checkbox")! as HTMLInputElement;
+       if(ele.checked = true){
+         this.disabled = true;
+       }else{
+         this.disabled=false;
+       }
+   }
+
+   }

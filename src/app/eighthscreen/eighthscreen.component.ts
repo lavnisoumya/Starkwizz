@@ -7,7 +7,7 @@ import { Router } from "@angular/router";
   styleUrls: ['./eighthscreen.component.css']
 })
 export class EighthscreenComponent implements OnInit {
-
+   disabled = false;
   constructor(private route: Router) { }
 
   ngOnInit(): void {
@@ -17,5 +17,13 @@ export class EighthscreenComponent implements OnInit {
  }
  tiktok(){
    this.route.navigate(['/tiktokscreen'])
+ }
+ validate(){
+   const ele = document.getElementById("checkbox")! as HTMLInputElement;
+     if(ele.checked = true){
+       this.disabled = true;
+     }else{
+       this.disabled = false;
+     }
  }
 }
