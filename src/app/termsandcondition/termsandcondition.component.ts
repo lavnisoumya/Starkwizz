@@ -12,7 +12,7 @@ export class TermsandconditionComponent implements OnInit {
   ngOnInit(): void {
   }
   gotosecondpage(){
-    this.approute.navigate(['/secondscreen']);
+    this.approute.navigate(['/']);
   }
 
 }

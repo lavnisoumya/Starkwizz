@@ -8,10 +8,11 @@ import { Router } from "@angular/router";
 export class PrivacypolicyComponent implements OnInit {
 
   constructor(private approute:Router) { }
+  enabled = true;
 
   ngOnInit(): void {
   }
   gotosecondpage(){
-    this.approute.navigate(['/secondscreen']);
+    this.approute.navigate(['/',this.enabled]);
   }
 }

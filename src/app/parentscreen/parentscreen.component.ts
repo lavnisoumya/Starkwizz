@@ -11,5 +11,7 @@ export class ParentscreenComponent implements OnInit {
 
   ngOnInit(): void {
   }
-   
+  tiktok(){
+    this.approute.navigate(['/tiktokscreen'])
+  }
 }

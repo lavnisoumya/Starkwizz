@@ -27,6 +27,7 @@ import { DailyquizComponent } from './myquiz/dailyquiz/dailyquiz.component';
 import { CoupunComponent } from './myquiz/coupun/coupun.component';
 import { InstructionbackendComponent } from './myquiz/dailyquiz/instructionbackend/instructionbackend.component';
 import { Dailyquiz01Component } from './myquiz/dailyquiz/instructionbackend/dailyquiz01/dailyquiz01.component';
+import { StudentscreenComponent } from './studentscreen/studentscreen.component';
 
 
 const appRoutes: Routes = [
@@ -82,7 +83,8 @@ const appRoutes: Routes = [
     DailyquizComponent,
     CoupunComponent,
     InstructionbackendComponent,
-    Dailyquiz01Component
+    Dailyquiz01Component,
+    StudentscreenComponent
   ],
   imports: [
     BrowserModule,

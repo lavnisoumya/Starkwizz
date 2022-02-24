@@ -5,14 +5,14 @@
   <p style="color:rgb(0,191,255);margin-left:80px;margin-top:60px;">You would like to <br>
     Sign in as</p>
        <div class="studentactivebutton">
-         <button [disabled] = "isfirstdisabled"   class="button button5 " id="student" (click)="[isfirstclicked = !isfirstclicked,isproceeddisabled = !isproceeddisabled,one()]" [class.myclass]= "isfirstclicked" >Student</button>
-           <button [disabled] = "isseconddisabled" class="button button4 " id="parent" (click)="[issecondclicked = !issecondclicked,isproceeddisabled = !isproceeddisabled,two()]" [class.myfirstclass]= "issecondclicked" >Parent</button>
-             <button [disabled] = "isthirddisabled" class="button button3" id="teacher"(click)="[isthirdclicked = !isthirdclicked,isproceeddisabled = !isproceeddisabled,three()]" [class.mysecondclass]= "isthirdclicked" >Teacher</button>
+         <button    class="button button5 " id="student" (click)="[isfirstclicked = !isfirstclicked,one()]" [class.myclass]= "isfirstclicked" >Student</button>
+           <button  class="button button4 " id="parent" (click)="[issecondclicked = !issecondclicked,two()]" [class.myfirstclass]= "issecondclicked" >Parent</button>
+             <button  class="button button3" id="teacher"(click)="[isthirdclicked = !isthirdclicked,three()]" [class.mysecondclass]= "isthirdclicked" >Teacher</button>
        </div>
 
 
     <p> <a routerLink= "/knowmore" style = "color:rgb(0,191,255);text-align:center;margin-top:30px;margin-left:20%;">
-      <i style="padding:15px 20px;;" class="fa fa-info-circle"></i>Know more</a></p>
+      <i style="padding:15px 40px;;" class="fa fa-info-circle"></i>Know more</a></p>
 <button class="button button6" (click)="fourth()" [disabled]="isproceeddisabled">Proceed</button>
 
 </div>

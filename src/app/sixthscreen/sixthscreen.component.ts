@@ -31,21 +31,24 @@ export class SixthscreenComponent implements OnInit {
   }
   one(){
     if (this.isfirstclicked = true) {
-      this.isseconddisabled = true;
-       this.isthirddisabled = true;
+      this.issecondclicked = false;
+       this.isthirdclicked = false;
+       this.isproceeddisabled = false;
 
     };
   }
     two(){
       if(this.issecondclicked = true){
-        this.isfirstdisabled = true;
-        this.isthirddisabled = true;
+        this.isfirstclicked = false;
+        this.isthirdclicked = false;
+         this.isproceeddisabled = false;
       };
     }
       three(){
         if (this.isthirdclicked = true) {
-          this.isseconddisabled = true;
-          this.isfirstdisabled = true ;
+          this.isfirstclicked = false;
+          this.issecondclicked = false ;
+           this.isproceeddisabled = false;
         };
       }
 
