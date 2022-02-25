@@ -28,6 +28,8 @@ import { CoupunComponent } from './myquiz/coupun/coupun.component';
 import { InstructionbackendComponent } from './myquiz/dailyquiz/instructionbackend/instructionbackend.component';
 import { Dailyquiz01Component } from './myquiz/dailyquiz/instructionbackend/dailyquiz01/dailyquiz01.component';
 import { StudentscreenComponent } from './studentscreen/studentscreen.component';
+import { SubscribeComponent } from './subscribe/subscribe.component';
+import { OffersComponent } from './offers/offers.component';
 
 
 const appRoutes: Routes = [
@@ -54,7 +56,7 @@ const appRoutes: Routes = [
   {path:"dailyquiz",component:DailyquizComponent},
   {path:"instructionbackend",component:InstructionbackendComponent},
   {path:"dailyquiz1",component:Dailyquiz01Component},
-
+  {path:"subscribe",component:SubscribeComponent},
 
 ];
 @NgModule({
@@ -84,7 +86,9 @@ const appRoutes: Routes = [
     CoupunComponent,
     InstructionbackendComponent,
     Dailyquiz01Component,
-    StudentscreenComponent
+    StudentscreenComponent,
+    SubscribeComponent,
+    OffersComponent
   ],
   imports: [
     BrowserModule,

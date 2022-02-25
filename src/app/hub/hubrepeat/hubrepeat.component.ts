@@ -11,5 +11,7 @@ export class HubrepeatComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  hello(){
+    
+  }
 }
