@@ -78,3 +78,8 @@
   padding: 10px;
   margin-bottom: 30px;
 }
+@media screen and (min-width:400px) {
+ i{
+   margin-left: 80%;
+ }
+}
