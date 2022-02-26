@@ -1,7 +1,7 @@
 <div class="dynamo">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <ul>
-    <li><i class="fa fa-chevron-circle-left" style="font-size:30px;color:rgb(137,207,240);padding:20px;"></i></li>
+    <li><i class="fa fa-chevron-circle-left" style="font-size:30px;color:rgb(137,207,240);padding:20px;" (click)="gototiktok()"></i></li>
 
     <img src="assets\LOGO.jpeg" alt="">
   <li style="float:right"><i class="fa fa-bell" style="font-size:24px;padding:20px;color:rgb(137,207,240);" ></i></li>
@@ -322,11 +322,13 @@ lets dive in !</p>
            </div>
     </div>
     </div>
-    <div style="margin-top:30px;" class="row">
-      <div class="column">
-    <button class="button button4" (click)="gotosubpage()">Subscribe</button>
-      </div>
-      <div style="margin-left:35px;"   class="column">
-          <button class="button button4" (click)="gotosubpage()">Free trail</button>
+    <div class="container" style="bottom:0;position:fixed;width:100%;background-color:white;">
+      <div  class="row" >
+        <div class="column">
+      <button style="float:left;margin-left:-5%;" class="button button4" (click)="gotosubpage()">Subscribe</button>
+        </div>
+        <div class="column">
+            <button style="float:left;" class="button button4" (click)="gotosubpage()">Free trail</button>
+        </div>
       </div>
     </div>

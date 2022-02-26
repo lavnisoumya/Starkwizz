@@ -30,6 +30,7 @@ import { Dailyquiz01Component } from './myquiz/dailyquiz/instructionbackend/dail
 import { StudentscreenComponent } from './studentscreen/studentscreen.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
 import { OffersComponent } from './offers/offers.component';
+import { NoticeComponent } from './notice/notice.component';
 
 
 const appRoutes: Routes = [
@@ -57,7 +58,8 @@ const appRoutes: Routes = [
   {path:"instructionbackend",component:InstructionbackendComponent},
   {path:"dailyquiz1",component:Dailyquiz01Component},
   {path:"subscribe",component:SubscribeComponent},
-
+  {path:"offers",component:OffersComponent},
+  {path:"notice",component:NoticeComponent},
 ];
 @NgModule({
   declarations: [
@@ -88,7 +90,8 @@ const appRoutes: Routes = [
     Dailyquiz01Component,
     StudentscreenComponent,
     SubscribeComponent,
-    OffersComponent
+    OffersComponent,
+    NoticeComponent
   ],
   imports: [
     BrowserModule,

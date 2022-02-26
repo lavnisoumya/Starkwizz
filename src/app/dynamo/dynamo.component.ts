@@ -14,4 +14,7 @@ export class DynamoComponent implements OnInit {
     gotosubpage(){
       this.route.navigate(['/subscribe'])
     }
+    gototiktok(){
+      this.route.navigate(['/tiktokscreen'])
+    }
 }
