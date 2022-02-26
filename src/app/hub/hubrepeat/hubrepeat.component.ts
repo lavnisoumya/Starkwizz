@@ -17,4 +17,7 @@ export class HubrepeatComponent implements OnInit {
   offers(){
     this.route.navigate(['/offers']);
   }
+  gotonoticescreen(){
+    this.route.navigate(['/notice']);
+  }
 }

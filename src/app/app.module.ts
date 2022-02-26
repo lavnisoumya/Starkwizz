@@ -31,10 +31,13 @@ import { StudentscreenComponent } from './studentscreen/studentscreen.component'
 import { SubscribeComponent } from './subscribe/subscribe.component';
 import { OffersComponent } from './offers/offers.component';
 import { NoticeComponent } from './notice/notice.component';
+import { NoticescreenComponent } from './noticescreen/noticescreen.component';
+import { SplashscreenComponent } from './splashscreen/splashscreen.component';
 
 
 const appRoutes: Routes = [
-    {path: '',component:SecondscreenComponent},
+  {path:'',component:SplashscreenComponent},
+    {path: 'secondscreen',component:SecondscreenComponent},
   {path: 'firstscreen',component:FirstscreenComponent},
   {path: 'termsandcondition',component:TermsandconditionComponent},
   {path:'privacypolicy',component:PrivacypolicyComponent},
@@ -91,7 +94,9 @@ const appRoutes: Routes = [
     StudentscreenComponent,
     SubscribeComponent,
     OffersComponent,
-    NoticeComponent
+    NoticeComponent,
+    SplashscreenComponent,
+
   ],
   imports: [
     BrowserModule,
