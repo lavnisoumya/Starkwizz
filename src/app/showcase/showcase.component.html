@@ -1,1 +1,35 @@
-<p>showcase works!</p>
+<div class="mainnav">
+
+  <div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Clients</a>
+<a href="#">Contact</a>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://css.gg/play-button.css' rel='stylesheet'>
+
+
+<span style="font-size:30px;cursor:pointer;color:white;margin-left:2%;" (click)="openNav()">&#9776; </span>
+<a style="color:white;margin-left:20%;font-size:25px;font-weight:bold;font-style:italic;">Starkwiz</a>
+<i class="fa fa-camera" style="font-size:20px;color:white;margin-left:10%;"></i>
+<i class="fa fa-filter" style="font-size:24px;color:white;margin-left:3%;"></i>
+</div>
+
+  <video  width="400">
+    <source src="assets/Baby_goats.mp4" type="video/mp4">
+
+      </video>
+  <i class="gg-play-button"></i>
+
+
+
+<div class="navbar">
+<a routerLink = "/hubs">Hub</a>
+<a routerLink = "/dynamo">Dynamo</a>
+<a routerLink="/showcase" class="active">showcase</a>
+<a routerLink="/myquiz">My quiz</a>
+<a routerLink="/bookfest">Bookfest</a>
+</div>
