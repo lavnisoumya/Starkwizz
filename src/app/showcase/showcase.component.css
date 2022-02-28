@@ -116,3 +116,38 @@ video {
  }
 
 }
+button{
+  border-radius: 150px;
+  background-color: rgb(137,207,240);
+  color: white;
+  width: 15%;
+  height: 70px;
+  border-color: rgb(137,207,240);
+  margin-top: 20%;
+  margin-left: 20%;
+  margin-bottom: 20%;
+  border: none;
+}
+.app_vedios{
+  position: relative;
+  height: 750px;
+  background-color: white;
+  overflow: scroll;
+  width: 100%;
+  border-radius: 20px;
+  -ms-overflow-style:none;
+  scrollbar-width:none;
+}
+.app_vedios::-webkit-scrollbar{
+  display: none;
+}
+.vedio{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.vedio_player{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
