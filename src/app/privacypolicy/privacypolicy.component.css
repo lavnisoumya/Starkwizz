@@ -19,6 +19,8 @@ overflow:hidden;
   position: fixed;
   margin-right: 5%;
   bottom: 0;
+  overflow: hidden;
+  background-color: white;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 button{
@@ -39,4 +41,4 @@ button{
   margin-right: 5%;
   overflow-y: scroll;;
 }
-.button4{background-color: white;color:black;margin-bottom:20px; }
+.button4{background-color: white;color:cyan;margin-bottom:20px;border-color: cyan};
