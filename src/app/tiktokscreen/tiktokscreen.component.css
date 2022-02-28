@@ -48,7 +48,7 @@
   background-color: #333;
   position: fixed;
   bottom: 0;
-  justify-content:space-around;
+  justify-content:space-between;
   width: 100%;
 }
 
@@ -58,7 +58,8 @@
 
   color: #f2f2f2;
 
-  padding: 14px  ;
+  padding: 10px  ;
+  padding-left: 0px;
 
   text-decoration: none;
   font-size: 10px;
