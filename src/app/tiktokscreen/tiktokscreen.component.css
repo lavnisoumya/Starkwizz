@@ -80,9 +80,12 @@
   margin-bottom: 30px;
 }
 @media screen and (min-width:400px) {
- i{
-   margin-left: 80%;
- }
+  i{
+   margin-top: 1.5%;
+   margin-right: 3%;
+    float: right;
+
+  }
 }
 vedio{
   width: 100%;
