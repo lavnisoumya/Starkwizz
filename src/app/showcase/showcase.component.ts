@@ -17,4 +17,22 @@ export class ShowcaseComponent implements OnInit {
  closeNav() {
   document.getElementById("mySidenav")!.style.width = "0";
 }
+playpause(){
+
+  // console.log(videos);
+
+
+  const videos = document.querySelectorAll('video')!;
+
+       for (const video of videos) {
+         video.addEventListener('click', function () {
+           if (video.paused) {
+             video.play();
+           } else {
+             video.pause();
+           }
+         });
+       }
+}
+
 }

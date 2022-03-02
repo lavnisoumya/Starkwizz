@@ -17,10 +17,15 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2017",
+    "strict": false,
     "module": "es2020",
     "lib": [
       "es2020",
-      "dom"
+      "dom",
+       "es5",
+       "es6",
+       "dom",
+        "dom.iterable"
     ]
   },
   "angularCompilerOptions": {
