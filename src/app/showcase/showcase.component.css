@@ -112,27 +112,20 @@ video {
 }
 @media screen and (min-width:400px) {
  i{
-   margin-left: 80%;
+  margin-top: 1%;
+  margin-right: 3%;
+   float: right;
+
  }
 
 }
-button{
-  border-radius: 150px;
-  background-color: rgb(137,207,240);
-  color: white;
-  width: 15%;
-  height: 70px;
-  border-color: rgb(137,207,240);
-  margin-top: 20%;
-  margin-left: 20%;
-  margin-bottom: 20%;
-  border: none;
-}
+
 .app_vedios{
   position: relative;
   height: 750px;
   background-color: white;
   overflow: scroll;
+/*scroll-snap-type: y mandatory;*/
   width: 100%;
   border-radius: 20px;
   -ms-overflow-style:none;
@@ -150,4 +143,64 @@ button{
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+.videoFooter {
+  position: relative;
+  bottom: 100px;
+  margin-left: 20px;
+  display: flex;
+}
+.videoFooter__text {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  flex:1;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.user__avatar {
+  border-radius: 50%;
+  width: 50px;
+
+  height: 50px;
+}
+.videoFooter__text h3 {
+  margin-left: 20px;
+  padding-bottom: 20px;
+  top: 48%;
+}
+
+.videoFooter__text h3 button {
+  color: white;
+  font-weight: 900;
+  text-transform: inherit;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 5px;
+}
+@media (max-width: 425px) {
+  .app__videos {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 0;
+  }
+}
+.videoSidebar {
+  position: absolute;
+  top: 48%;
+  right: 10px;
+  color: white;
+}
+
+.videoSidebar .material-icons {
+  font-size: 28px;
+  cursor: pointer;
+
+}
+
+.videoSidebar__button {
+  padding: 20px;
+  text-align: center;
+
 }
