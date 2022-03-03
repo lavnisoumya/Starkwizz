@@ -79,12 +79,12 @@
   padding: 10px;
   margin-bottom: 30px;
 }
-@media screen and (min-width:400px) {
+@media screen and (min-width:200px) {
   i{
    margin-top: 1.5%;
    margin-right: 3%;
     float: right;
-
+    
   }
 }
 vedio{
