@@ -19,8 +19,8 @@
 <i class="fa fa-camera" style="font-size:20px;color:white;"></i>
 
 </div>
- <div class="app_vedios">
-   <div class="vedio">
+ <div class="app_vedios"> <!---app_vedios startrs --->
+   <div class="vedio"><!---vedio starts --->
      <video (click)="playpause()"  class="vedio_player">
        <source src="assets/Baby_goats.mp4" type="video/mp4">
 
@@ -30,7 +30,7 @@
 
       </div> --->
 
-   <div class="videoSidebar">
+   <div class="videoSidebar"> <!-- vediosidebarstarts -->
            <div class="videoSidebar__button">
              <span class="material-icons"> thumb_up </span>
              <p>12</p>
@@ -52,21 +52,31 @@
          </div>
           <!--- videoSidebar ends>
 
-   <!--- footer starts --->
-   <div class="vedioFooter">
-     <div class="vedioFooter__text">
-      <!---  <img class="user__avatar" src="assets\img_avatar.png" alt=""> -->
-        <!--- <h3>Soumya Nath . <button>Follow</button></h3> -->
-     </div>
-   </div>
-    </div>
-    </div>
+   <!--- vediofooter starts --->
+
+   <div class="videoFooter">
+           <div class="videoFooter__text">
+             <img class="user__avatar" src="assets\img_avatar.png" alt="" />
+             <h3>Soumya • <button>Follow</button></h3>
+           </div>
+
+           <div class="videoFooter__ticker">
+
+             <marquee>Song Name</marquee>
+           </div>
+           </div>
+
+
+   <!--vediofooter ends --->
+    <!--app_vediosends -->
+     <!--videoends-->
     <div class="app_vedios">
       <div class="vedio">
         <video (click)="playpause()" class="vedio_player">
           <source src="assets/Baby_goats.mp4" type="video/mp4">
 
             </video>
+
        <!--- <div class="playbutton"  <button (click)="playpause()" type="button" name="button"><i class="fa fa-play" style="font-size:34px;color:white;"></i>
      </button>
 
@@ -99,6 +109,7 @@
         <div class="vedioFooter__text">
          <!---  <img class="user__avatar" src="assets\img_avatar.png" alt=""> -->
            <!--- <h3>Soumya Nath . <button>Follow</button></h3> -->
+        
         </div>
       </div>
        </div>
