@@ -33,7 +33,20 @@ import { OffersComponent } from './offers/offers.component';
 import { NoticeComponent } from './notice/notice.component';
 import { NoticescreenComponent } from './noticescreen/noticescreen.component';
 import { SplashscreenComponent } from './splashscreen/splashscreen.component';
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
+
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAlC39DxP_VcbNjwYT3b95jwa_P-RPESHQ",
+  authDomain: "starkwizzz-5f6cb.firebaseapp.com",
+  projectId: "starkwizzz-5f6cb",
+  storageBucket: "starkwizzz-5f6cb.appspot.com",
+  messagingSenderId: "691329614826",
+  appId: "1:691329614826:web:062ed0c3b20225afd9a893",
+  measurementId: "G-R43SXQJSFF"
+};
 
 const appRoutes: Routes = [
   {path:'',component:SplashscreenComponent},
@@ -101,6 +114,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes)
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
